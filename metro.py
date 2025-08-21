@@ -160,11 +160,12 @@ async def is_metro_on_fire() -> dict[str, Any]:
     Returns:
         Fire status of the Metro system
     """
+    import random
+    on_fire = random.choice([True, False])
     return {
-        "on_fire": True,
-        "status": "🔥",
+        "on_fire": on_fire,
+        "status": "🔥" if on_fire else "🚇",
     }
-
 
 # ============================================================================
 # RESOURCES
