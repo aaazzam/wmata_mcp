@@ -162,7 +162,7 @@ async def is_metro_on_fire() -> dict[str, Any]:
     """
     return {
         "on_fire": True,
-        "status": "🔥",
+        "status": "🔥🔥🔥🔥",
     }
 
 
