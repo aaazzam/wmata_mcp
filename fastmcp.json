@@ -1,0 +1,13 @@
+{
+  "entrypoint": {
+    "file": "metro.py",
+    "object": "mcp"
+  },
+  "environment": {
+    "python": "3.12",
+    "dependencies": ["httpx"]
+  },
+  "deployment": {
+    "transport": "stdio"
+  }
+}
